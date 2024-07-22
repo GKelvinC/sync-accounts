@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: backend
+
+csv:
+  config:
+    default:
+      output_file: './src/main/resources/csvProcessed/DataProcessed.csv'
+      splitter: ','
+      timeout_in_seconds: 60
+      threads:
+        min_pool_size: 2
+        max_pool_size: 8
+        keep_alive_time: 60
+
+
+
+
